@@ -1,0 +1,32 @@
+com.library.management
+├── api
+│   ├── LibrarianController.java
+│   └── MemberController.java
+│
+├── domain
+│   ├── Person.java
+│   ├── Member.java
+│   ├── Librarian.java
+│   ├── Book.java
+│   ├── BookItem.java
+│   ├── EBook.java
+│   ├── Reservation.java
+│   └── Constants.java
+│
+├── service
+│   ├── LibraryService.java
+│   ├── fine
+│   │   ├── FineCalculator.java
+│   │   └── StandardFineStrategy.java
+│   ├── notification
+│   │   ├── NotificationService.java
+│   │   ├── EmailNotification.java
+│   │   └── SMSNotification.java
+│   └── search
+│       ├── SearchStrategy.java
+│       ├── TitleSearch.java
+│       ├── AuthorSearch.java
+│       └── SubjectSearch.java
+│
+├── exception
+    └── BookNotFoundException.java
